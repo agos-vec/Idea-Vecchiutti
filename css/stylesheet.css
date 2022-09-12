@@ -26,7 +26,8 @@ body {
 }
 
 header {
-    background-color: lightseagreen;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,24,1) 0%, rgba(5,162,128,1) 0%, rgba(2,212,143,1) 44%, rgba(0,212,255,1) 100%);
     grid-area: header;
     display: flex;
     justify-content: space-evenly;
@@ -55,7 +56,8 @@ div ul li {
 }
 
 nav {
-    background-color: lightgreen;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,24,1) 0%, rgba(5,162,128,1) 0%, rgba(2,212,143,1) 44%, rgba(0,212,255,1) 100%);
     grid-area: nav;
 }
 
@@ -140,7 +142,8 @@ nav {
 
 
 footer {
-    background-color: lightseagreen;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,24,1) 0%, rgba(5,162,128,1) 0%, rgba(2,212,143,1) 44%, rgba(0,212,255,1) 100%);    
     grid-area: footer;
     display: flex;
     justify-content: center;
